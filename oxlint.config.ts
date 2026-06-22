@@ -1,7 +1,7 @@
 import { defineConfig } from "oxlint"
 
 export default defineConfig({
-  ignorePatterns: ["src/routeTree.gen.ts"],
+  ignorePatterns: ["src/routeTree.gen.ts", "src/components/ui"],
   plugins: ["eslint", "typescript", "unicorn", "oxc", "react", "jsx-a11y"],
   rules: {
     "prefer-const": "off", // allow 'let' for variable declaration
